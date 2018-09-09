@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS tripdto (
+id BIGINT PRIMARY KEY ,
+origin VARCHAR(3) NOT NULL,
+destination VARCHAR(3) NOT NULL,
+price INT NOT NULL
+);

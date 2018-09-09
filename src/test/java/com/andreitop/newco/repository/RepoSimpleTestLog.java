@@ -1,6 +1,7 @@
 package com.andreitop.newco.repository;
 
 import com.andreitop.newco.dto.TripDto;
+import com.andreitop.newco.repository.TripRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -18,7 +19,7 @@ public class RepoSimpleTestLog {
     private TripDto tripDto = new TripDto();
 
     @Before
-    public void settrip() {
+    public void setTrip() {
         tripDto.setId(1L);
         tripDto.setOrigin("LLL");
         tripDto.setDestination("YYY");
